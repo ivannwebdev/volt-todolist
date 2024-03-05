@@ -1,4 +1,5 @@
 {
+  "homepage": "http://ivannwebdev.github.io/volt-todolist",
   "name": "volt-todolist",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -28,6 +30,7 @@
     ]
   },
   "devDependencies": {
-    "@wemake-services/eslint-config-javascript": "^2.1.1"
+    "@wemake-services/eslint-config-javascript": "^2.1.1",
+    "gh-pages": "^6.1.1"
   }
 }
