@@ -1,3 +1,3 @@
 Simple Todo app using React/Redux
 
-Deployment -
+Deployment - https://ivannwebdev.github.io/volt-todolist/
