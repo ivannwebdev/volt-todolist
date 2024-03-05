@@ -6,7 +6,6 @@ import { useSelector } from 'react-redux'
 import { todosSelectors } from '../selectors/todos-selectors'
 
 function TodoList() {
-  const allTodos = useSelector(todosSelectors.todos)
   const completedTodos = useSelector(todosSelectors.completed)
   const currentTodos = useSelector(todosSelectors.current)
   const { completed, current, all, data } = useFilter()
@@ -26,17 +25,17 @@ function TodoList() {
         <Checkbox
           checked={showAll}
           onChange={setShowAll}
-          label={`all (${allTodos.length})`}
+          label='all'
         />
         <Checkbox
           checked={showCompleted}
           onChange={setShowCompleted}
-          label={`completed (${completedTodos.length}/${allTodos.length})`}
+          label={`completed ( ${completedTodos.length} )`}
         />
         <Checkbox
           checked={showCurrent}
           onChange={setShowCurrent}
-          label={`current (${currentTodos.length}/${allTodos.length})`}
+          label={`current ( ${currentTodos.length} )`}
         />
       </Flex>
       <List
