@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/volt-todolist/static/css/main.dd1ea7b7.css",
+    "main.js": "/volt-todolist/static/js/main.3c12c95f.js",
+    "index.html": "/volt-todolist/index.html",
+    "main.dd1ea7b7.css.map": "/volt-todolist/static/css/main.dd1ea7b7.css.map",
+    "main.3c12c95f.js.map": "/volt-todolist/static/js/main.3c12c95f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd1ea7b7.css",
+    "static/js/main.3c12c95f.js"
+  ]
+}
